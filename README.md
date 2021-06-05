@@ -7,3 +7,4 @@
 - start django server and make sure you you are in the port 8000 in django server.
 - start another new server in react build file using this. https://flaviocopes.com/local-web-server/ (for react files port do not matter)
 - go to the url of the react server and now it should work.
+- the username and password for django admin is "bipin" (without quote)[for both username and password]
