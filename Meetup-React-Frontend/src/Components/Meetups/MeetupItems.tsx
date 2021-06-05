@@ -17,7 +17,7 @@ export default function MeetupItems(props: IMeetupData) {
             favoriteContext.addFavorite(
                 {
                     id:props.id,
-                    title:props.image,
+                    title:props.title,
                     image:props.image,
                     address:props.address,
                     description:props.description
@@ -34,9 +34,9 @@ export default function MeetupItems(props: IMeetupData) {
                     <img src={props.image} alt={props.title}/>
                 </div>
                 <div className={styles.content}>
-                    <h3>{props.title}</h3>
-                    <address>{props.address}</address>
-                    <p>{props.description}</p>
+                    <h3>Title: {props.title}</h3>
+                    <address>Address: {props.address}</address>
+                    <p>Description: {props.description}</p>
                 </div>
                 <div className={styles.actions}>
                     <button onClick={toggleFavoriteStatusHandler}>

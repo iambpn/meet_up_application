@@ -11,7 +11,7 @@ export interface IMeetupData{
 function NewMeetup() {
     const history = useHistory();
     let meetUpHandler = (meetupData: IMeetupData) => {
-        fetch("https://react-meetup-1ea42-default-rtdb.firebaseio.com/meetup.json",
+        fetch("http://localhost:8000/api/add-meetup/",
             {
                 method:"POST",
                 body: JSON.stringify(meetupData),

@@ -5,7 +5,7 @@ import MeetupList from "../Components/Meetups/MeetupList";
 function Favorites(){
     const favoriteContext = useContext(FavouriteContext);
     let content:JSX.Element;
-    if (favoriteContext.totalFavourites == 0){
+    if (favoriteContext.totalFavourites === 0){
         content = <p>You got no favorite yet. Start adding some?</p>;
     }
     else {
