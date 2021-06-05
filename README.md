@@ -6,4 +6,4 @@
 - run the requirement.txt for python by using `pip install -r requirements.txt`
 - start django server and make sure you you are in the port 8000 in django server.
 - start another new server in react build file using this. https://flaviocopes.com/local-web-server/ (for react files port do not matter)
-- Now it should work.
+- go to the url of the react server and now it should work.
