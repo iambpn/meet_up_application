@@ -1,5 +1,5 @@
 # meet_up_application
- ## Meetup application ith react and django 
+ ## Meetup application with react and django 
 
 ## How to try this application (locally):
 - download the build zip from release which contains react frontend build file and the django server files.
